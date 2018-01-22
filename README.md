@@ -1,34 +1,48 @@
-# Webpage Template
+# Places
 
-#### template to be used for creating new websites, 1-9-18
+#### website of places I've been, 1-22-18
 
-#### _By Sara Hamilton_
+#### _By Sara Hamilton and Katie Fujihara_
 
 ## Description
 
-_{This is a detailed description of your application, its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This is a website of places we've been.  It was created to learn and practice objects in JavaScript._
 
 ## Setup/Installation Requirements
 
-* _Create a new repository in GitHub_
-```
-https://github.com/user-name/new-repository-name.git
-```
+* _clone repository_
 
-* _Create a bare clone of this repository_
-```
-git clone --bare https://github.com/Sara-Hamilton/template.git
-```
+* _open in text editor_
 
-* _Move into the template directory_
-```
-cd template.git
-```
+* _open in browser_
 
-* _Mirror push to the new repository_
-```
-git push --mirror https://github.com/user-name/new-repository-name.git
-```
+### Specifcations
+The object place contains properties country, city, language, landmarks, year, recommendations
+
+1. place: country
+* Input Example: Portland
+* Output Example: USA
+
+2. place: city
+* Input Example: Portland
+* Output Example: Portland
+
+3. place: language
+* Input Example: Portland
+* Output Example: English
+
+4. place: landmarks
+* Input Example: Portland
+* Output Example: ["Rose Garden", "Pioneer Square", "Pittock Mansion"]
+
+5. place: year
+* Input Example: Portland
+* Output Example: 2018
+
+6. place: recommendations
+* Input Example: Portland
+* Output Example: ["Salt and Straw", "microbreweries", "waterfront"]
+
 
 ## Support and contact details
 
@@ -45,7 +59,7 @@ _To suggest changes, submit a pull request in the GitHub repository._
 
 *MIT License*
 
-Copyright (c) 2018 **_Sara Hamilton_**
+Copyright (c) 2018 **_Sara Hamilton and Katie Fujihara_**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
