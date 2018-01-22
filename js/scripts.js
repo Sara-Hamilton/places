@@ -22,7 +22,18 @@ $(document).ready(function(){
 
     var newPlace = new Place(inputtedCity, inputtedCountry, inputtedLanguage, inputtedLandmark, inputtedYear, inputtedRecommendation);
 
-    $("ul#results").append("<li><span class='place'>") + newPlace.city + "</span></li>");
+    $("ul#results").append("<li><span class='place'>" + newPlace.city + "</span></li>");
+
+    $(".place").last().click(function() {
+      $("#details").show();
+      $("#details h2").text(newPlace.city);
+      $(".city").text(newPlace.city);
+      $(".country").text(newPlace.country);
+      $(".language").text(newPlace.language);
+      $(".landmark").text(newPlace.landmark);
+      $(".year").text(newPlace.year);
+      $(".recommendation").text(newPlace.recommendation);
+    });
 
     $("input#newcity").val("");
     $("input#newcountry").val("");

@@ -15,3 +15,16 @@ h2 {
 ul {
   list-style-type: none;
 }
+
+/*#details {
+  display: none;
+}*/
+
+.place {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.place:hover {
+  text-decoration: underline;
+}
