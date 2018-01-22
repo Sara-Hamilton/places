@@ -6,8 +6,14 @@ form {
 }
 .jumbotron {
   text-align: center;
+  background-image: url("https://www.wallpaperink.co.uk/gallery/shutterstock/world-maps/maps_11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color:gray;
+  font-family: 'Oswald', sans-serif;
+  border: 2px solid white;
 }
-
 h2 {
   text-align:center;
 }
@@ -18,13 +24,28 @@ ul {
 
 #details {
   display: none;
+  background-color: rgb(250, 255, 189);
+  padding: 3px;
+}
+
+#placesList {
+  display: none;
 }
 
 .place {
   cursor: pointer;
-  color: #0088cc;
+  text-decoration: underline;
+  color: rgb(250, 255, 189);
 }
 
-.place:hover {
-  text-decoration: underline;
+body {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color:#939969;
+  color: #585858;
+}
+
+.btn {
+  margin-bottom: 4rem;
 }

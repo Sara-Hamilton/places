@@ -22,6 +22,7 @@ $(document).ready(function(){
 
     var newPlace = new Place(inputtedCity, inputtedCountry, inputtedLanguage, inputtedLandmark, inputtedYear, inputtedRecommendation);
 
+    $("#placesList").show();
     $("ul#results").append("<li><span class='place'>" + newPlace.city + "</span></li>");
 
     $(".place").last().click(function() {
